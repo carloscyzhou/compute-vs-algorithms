@@ -1,0 +1,73 @@
+Model version,score,reports,compute,release,organization,score_pct,year
+gpt-j-6b,0.251,1,1.5e+22,2021-08-05,"EleutherAI,LAION",25.1,2021
+phi-2,0.5734999999999999,2,2.27e+22,2023-12-12,Microsoft,57.3,2023
+Cerebras-GPT-13B,0.262,1,2.3e+22,2023-03-20,Cerebras Systems,26.2,2023
+LLaMA-7B,0.351,5,4.00000001e+22,2023-02-24,Meta AI,35.1,2023
+mpt-7b,0.27365,4,4.2e+22,2023-05-05,MosaicML,27.4,2023
+gemma-2b,0.423,1,4.5115822e+22,2024-02-21,Google DeepMind,42.3,2024
+Baichuan-7B,0.423,1,5.04e+22,2023-06-01,Baichuan,42.3,2023
+INTELLECT-1-Instruct,0.4989,1,6.000001e+22,2024-11-29,"Prime Intellect,Hugging Face,Arcee AI",49.9,2024
+falcon-7b,0.262,5,6.3e+22,2023-04-24,Technology Innovation Institute,26.2,2023
+Phi-3-mini-4k-instruct,0.688,1,7.524e+22,2024-04-23,Microsoft,68.8,2024
+LLaMA-13B,0.469,4,7.8e+22,2023-02-24,Meta AI,46.9,2023
+xgen-7b-8k-base,0.363,1,8.02e+22,2023-06-27,Salesforce,36.3,2023
+Llama-2-7b,0.453,5,8.4e+22,2023-07-18,Meta AI,45.3,2023
+Baichuan-13B-Base,0.516,1,9.36e+22,2023-07-11,Baichuan,51.6,2023
+Qwen-7B,0.45,1,1.01e+23,2023-09-28,Alibaba,45.0,2023
+Baichuan-2-7B-Base,0.5416,1,1.092e+23,2023-09-20,Baichuan,54.2,2023
+Yi-6B-Chat,0.61,1,1.26e+23,2023-11-22,01.AI,61.0,2023
+Yi-6B,0.636,2,1.26e+23,2023-11-02,01.AI,63.6,2023
+Llama-2-13b,0.54945,6,1.6e+23,2023-07-18,Meta AI,54.9,2023
+Llama-2-13b-chat,0.473,1,1.6e+23,2023-07-18,Meta AI,47.3,2023
+Qwen1.5-7B,0.626,1,1.68e+23,2024-02-04,Alibaba,62.6,2024
+mpt-30b,0.474,2,1.8900000000001e+23,2023-06-22,MosaicML,47.4,2023
+Baichuan-2-13B-Base,0.59185,2,2.03e+23,2023-09-06,Baichuan,59.2,2023
+Phi-3-small-8k-instruct,0.757,1,2.1312e+23,2024-04-23,Microsoft,75.7,2024
+falcon-40b,0.554,3,2.4e+23,2023-03-15,Technology Innovation Institute,55.4,2023
+Qwen-14B-Chat,0.65,1,2.5e+23,2023-09-24,Alibaba,65.0,2023
+Qwen-14B,0.5985,2,2.5e+23,2023-09-28,Alibaba,59.8,2023
+LLaMA-33B,0.578,4,2.7300000000001e+23,2023-02-24,Meta AI,57.8,2023
+gemma-7b,0.643,4,3.07e+23,2024-02-21,Google DeepMind,64.3,2024
+text-davinci-001,0.439,2,3.19181e+23,2022-01-27,OpenAI,43.9,2022
+qwen1.5-14B,0.686,1,3.36e+23,2024-02-04,Alibaba,68.6,2024
+falcon-11b,0.584,1,3.6e+23,2024-05-09,Technology Innovation Institute,58.4,2024
+Phi-3-medium-128k-instruct,0.779,3,4.032e+23,2024-04-23,Microsoft,77.9,2024
+Llama-2-34b,0.626,3,4.08e+23,2023-07-18,Meta AI,62.6,2023
+gemma-2-9b-it,0.721,1,4.32e+23,2024-06-24,Google DeepMind,72.1,2024
+LLaMA-65B,0.634,2,5.5e+23,2023-02-24,Meta AI,63.4,2023
+Chinchilla (70B),0.675,1,5.76e+23,2022-03-29,DeepMind,67.5,2022
+Llama-3.2-11B-Vision-Instruct,0.565,1,5.79e+23,2024-09-24,Meta AI,56.5,2024
+Yi-34B,0.7625,2,6.1e+23,2023-11-02,01.AI,76.2,2023
+Yi-34B-Chat,0.735,1,6.1e+23,2023-11-22,01.AI,73.5,2023
+Gopher (280B),0.6,2,6.31e+23,2021-12-08,DeepMind,60.0,2021
+Meta-Llama-3-8B-Instruct,0.6765,2,7.2e+23,2024-04-18,Meta AI,67.6,2024
+Nemotron-4 15B,0.587,1,7.5005116e+23,2024-02-26,Nvidia,58.7,2024
+Mixtral-8x7B-v0.1,0.7055,2,7.74e+23,2023-12-11,Mistral AI,70.6,2023
+Llama-2-70b-chat,0.599,1,8.1e+23,2023-07-18,Meta AI,59.9,2023
+Llama-2-70b-hf ,0.6964999999999999,4,8.1e+23,2023-07-18,Meta AI,69.6,2023
+qwen2.5-7b-instruct,0.729,1,8.2188e+23,2024-09-19,Alibaba,72.9,2024
+phi-4,0.848,1,9.3202015e+23,2024-12-12,Microsoft Research,84.8,2024
+Inflection-1,0.727,1,1.0001e+24,2023-06-22,Inflection AI,72.7,2023
+DeepSeek-V2,0.784,1,1.02e+24,2024-05-07,DeepSeek,78.4,2024
+Llama-3.1-8B-Instruct,0.561,1,1.224e+24,2024-07-23,Meta AI,56.1,2024
+qwen2.5-14b-instruct,0.799,1,1.58760000000001e+24,2024-09-19,Alibaba,79.9,2024
+Yi-large,0.793,1,1.8e+24,2024-05-13,01.AI,79.3,2024
+gemma-2-27b-it,0.757,1,2.106e+24,2024-06-24,Google DeepMind,75.7,2024
+Mixtral-8x22B-v0.1,0.778,1,2.34e+24,2024-04-17,Mistral AI,77.8,2024
+PaLM 540B,0.693,1,2.5272e+24,2022-04-04,Google Research,69.3,2022
+text-davinci-002,0.7,1,2.578e+24,2022-03-15,OpenAI,70.0,2022
+qwen2-72b-instruct,0.824,1,3.02e+24,2024-06-07,Alibaba,82.4,2024
+DeepSeek-V3,0.8714999999999999,2,3.3e+24,2024-12-26,DeepSeek,87.1,2024
+falcon-180B,0.706,1,3.76e+24,2023-09-06,Technology Innovation Institute,70.6,2023
+claude-2.0,0.785,1,3.866e+24,2023-07-11,Anthropic,78.5,2023
+amazon.nova-pro-v1:0,0.82,1,6.000010000000001e+24,2024-12-03,Amazon,82.0,2024
+Llama-3.3-70B-Instruct,0.827,2,6.8649768e+24,2024-12-06,Meta AI,82.7,2024
+qwen2.5-72b-instruct,0.8434999999999999,2,7.8e+24,2024-09-19,Alibaba,84.4,2024
+Qwen2.5-72B,0.85,1,7.8e+24,2024-09-19,Alibaba,85.0,2024
+Meta-Llama-3-70B-Instruct,0.793,1,7.861e+24,2024-04-18,Meta AI,79.3,2024
+Llama-3.1-70B-Instruct,0.801,1,7.929e+24,2024-07-23,Meta AI,80.1,2024
+gpt-4-0613,0.824,1,2.1e+25,2023-06-13,OpenAI,82.4,2023
+gpt-4-0314,0.864,1,2.1e+25,2023-03-14,OpenAI,86.4,2023
+claude-3-5-sonnet-20240620,0.865,1,2.700000000000001e+25,2024-06-20,Anthropic,86.5,2024
+Llama-3.1-405B,0.844,1,3.8e+25,2024-07-23,Meta AI,84.4,2024
+Llama-3.1-405B-Instruct,0.845,1,3.8e+25,2024-07-23,Meta AI,84.5,2024
