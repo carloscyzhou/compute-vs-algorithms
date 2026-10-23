@@ -39,6 +39,26 @@ def fit_trend(years, compute, n_boot=N_BOOT, seed=0):
                 boots=boots)
 
 
+def find_breakpoint(years, compute, lo=2012, hi=2022, step=0.25):
+    """Year that best splits the data into two straight-line eras (least total squared error)."""
+    x, y = np.asarray(years, float), np.log10(np.asarray(compute, float))
+    best = None
+    for b in np.arange(lo, hi + 1e-9, step):
+        before, after = x < b, x >= b
+        if before.sum() < 10 or after.sum() < 10:
+            continue
+        fits = [np.polyfit(x[m], y[m], 1) for m in (before, after)]
+        sse = sum(((y[m] - np.polyval(f, x[m])) ** 2).sum() for m, f in zip((before, after), fits))
+        if best is None or sse < best[0]:
+            best = (sse, b, fits)
+    if best is None:
+        return None
+    _, b, (f1, f2) = best
+    return dict(year=b, before=f1, after=f2,
+                doubling_before=12 * np.log10(2) / f1[0], doubling_after=12 * np.log10(2) / f2[0],
+                growth_before=10 ** f1[0], growth_after=10 ** f2[0])
+
+
 # ---------------------------------------------------------------- capability model
 def to_link(score, kind):
     if kind == "mmlu":

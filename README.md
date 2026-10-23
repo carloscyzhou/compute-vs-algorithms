@@ -8,20 +8,20 @@ budget should go to compute (chips, data centres) or to research (better methods
 
 ## My page: Compute and Capability (`pages/1_Compute_and_Capability.py`)
 
-A five-act data story. Statistics live in `analysis.py`.
+Statistics live in `analysis.py`.
 
-1. **The compute explosion** – 478 notable models on a log scale, with a "largest model so
-   far" envelope, a fitted trend and its 95% bootstrap band. Filters for domain, trend start
-   year and frontier-only. Gives doubling time (5.4 months) and growth per year (4.7×).
-2. **Same compute, better scores** – MMLU (2021–24) or Epoch Capabilities Index (2023–26)
-   against compute, coloured by release year. Fitted same-year curves come from the model
-   `capability = b0 + bC·log10(compute) + bT·year`. Also shows R² for compute alone vs
-   compute + year, and the "exchange rate" 10^(bT/bC): one year of better methods ≈ 2.8× compute.
-3. **The falling price of a score** – step chart of the least compute needed to hit 60/70/80%
-   MMLU. Reaching 80% got 23× cheaper (GPT-4 → phi-4).
-4. **Split any gain** – pick two models; a waterfall splits the score change into compute,
-   better methods and model-specific parts.
-5. **The verdict** – the case for compute and the case for algorithms, side by side.
+1. **Training compute, 2010–2026**: 478 notable models on a log scale with a "largest model so far"
+   envelope. Either one trend with a 95% bootstrap band, or two eras split at a fitted break year
+   (2019: doubling every 11.7 months before, 4.8 months after).
+2. **Same compute, better scores**: MMLU (2021–24) or Epoch Capabilities Index (2023–26) against
+   compute, with fitted curves per release year from
+   `capability = b0 + bC·log10(compute) + bT·year`. Click dots to send them to section 4.
+   A replay tab animates the fitted curve rising quarter by quarter.
+3. **Iso-capability map**: the fitted MMLU surface over release date × compute as a contour map,
+   with the cheapest-model-to-80% path. Contours fall about 2.8× per year.
+4. **Decomposition**: a waterfall splitting the score change between any two models into compute,
+   methods and model-specific parts.
+5. **Two readings**: the case for compute and the case for algorithms.
 
 ## Data
 

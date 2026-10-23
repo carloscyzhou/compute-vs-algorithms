@@ -42,3 +42,8 @@ print(f"bC = {fit['beta'][1]:.3f}  bT = {fit['beta'][2]:.3f}  "
       f"exchange rate = 10^(bT/bC) = {fit['rate']:.2f}x")
 print(f"algorithm share = ln({fit['rate']:.2f}) / (ln({fit['rate']:.2f}) + ln({10**slope:.2f})) = "
       f"{A.algo_share(fit['rate'], 10**slope):.0%}")
+
+print("\n=== Check 6: two-era break year (chart 01, default) ===")
+br = A.find_breakpoint(years, m["Training compute (FLOP)"])
+print(f"break {br['year']:.1f}: doubling {br['doubling_before']:.1f} mo before, "
+      f"{br['doubling_after']:.1f} mo after")
